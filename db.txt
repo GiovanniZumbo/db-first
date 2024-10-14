@@ -1,0 +1,18 @@
+Nome: automobili
+
+ID                                          BIGINT                      PRIMARY_KEY  AUTO_INCREMENT
+Marca                                  VARCHAR                NOT NULL  
+Modello                               VARCHAR                NOT NULL 
+Anno di produzione          YEAR                        NULL
+Porte                                    TINY_INT                  NOT NULL
+Alimentazione                   VARCHAR                NOT NULL
+Motore                                 VARCHAR                NOT NULL
+Potenza                               SMALL_INT              NOT NULL 
+Versione                              VARCHAR               NULL
+Trasmissione                     VARCHAR                NULL
+Colori disponibili               VARCHAR                NOT NULL
+Disponibiilità                      BOOLEAN                 NOT NULL          DEFAULT(True)
+Prezzo                                  MEDIUM_INT           NOT NULL
+Targa                                   VARCHAR                NULL 
+Note                                     TEXT                        NULL
+Vendita annuale              SMALL_INT              NOT NULL          DEFAULT(0)
